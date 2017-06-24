@@ -47,7 +47,7 @@ html {
   color: #ccc; }
 
 label {
-  width: 100%;
+  display: inline-block;
   padding: 6px 20px;
   color: #00ab6b; }
 
@@ -57,3 +57,52 @@ label {
 
 a {
   text-decoration: none; }
+
+.tabela {
+  border-collapse: collapse;
+  background-color: transparent; }
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef; }
+
+.linha {
+  width: 100%;
+  background-color: grey; }
+
+.col-md-1 {
+  width: 10%; }
+
+.col-md-2 {
+  width: 10%; }
+
+.col-md-3 {
+  width: 10%; }
+
+.col-md-4 {
+  width: 10%; }
+
+.col-md-5 {
+  width: 10%; }
+
+.col-md-6 {
+  width: 10%; }
+
+.col-md-7 {
+  width: 10%; }
+
+.col-md-8 {
+  width: 10%; }
+
+.col-md-9 {
+  width: 10%; }
+
+.col-md-10 {
+  width: 10%; }
+
+.col-md-11 {
+  width: 10%; }
+
+.col-md-12 {
+  width: 10%; }
