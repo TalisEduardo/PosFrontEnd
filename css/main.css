@@ -130,7 +130,7 @@ a {
   vertical-align: inherit;
   border-color: inherit; }
 
-section div {
+section {
   display: none; }
 
 .container-fluid {
@@ -139,7 +139,7 @@ section div {
   padding-left: 15px;
   padding-right: 15px; }
 
-.row {
+.lin {
   margin-left: -15px;
   margin-right: -15px; }
 
