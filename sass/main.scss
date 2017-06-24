@@ -1,5 +1,4 @@
 $cor-primaria: #00ab6b;
-
 body,
 html {
     width: 100%;
@@ -10,33 +9,55 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.panel{
+.panel {
     display: flex;
     width: 250px;
     height: 100vh;
     background-color: #ffffff;
 }
 
-.button{
+.button {
     padding: 6px 20px;
-    border: 1px solid $cor-primaria;
-    background: #ffffff;
-    color: $cor-primaria; 
+    border: 1px solid transparent;
+    background: transparent;
+    color: $cor-primaria;
     cursor: pointer;
+    transition: .2s;
 
-    &.button-primary{
-        background-color: $cor-primaria; 
-        color: #ffffff!important;
+    &:hover {
+        background: #ccc;
+        color: $cor-primaria;
     }
 
-    &.button-rounded{
-        border-radius: 30px;
+    &.button-primary {
+        background-color: $cor-primaria;
+        color: #ffffff!important;
+        
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+    &.button-secundary {
+        background-color: transparent;
+        border-color: $cor-primaria;
+        color: $cor-primaria;
+        
+        &:hover {
+            background-color: $cor-primaria;
+            border-color: $cor-primaria;
+            color: #ffffff;
+        }
     }
 }
 
-.form-control{
+.rounded {
+    border-radius: 30px;
+}
+
+.form-control {
     width: 100%;
-    padding: 6px 20px;
+    padding: 6px 12px;
     border: 1px solid #ccc;
     color: #ccc;
 }
@@ -47,12 +68,11 @@ label {
     color: $cor-primaria;
 }
 
-.container-fluid{
+.container-fluid {
     display: inline-block;
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
-
