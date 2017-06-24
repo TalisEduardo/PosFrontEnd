@@ -39,40 +39,40 @@
         </div>
 
         <div id="table">
-            <table border=1 class="tabela">
+            <table class="tabela">
                 <thead>
-                    <td class="col-md-1">Coluna 1</td>
-                    <td class="col-md-2">Coluna 2</td>
-                    <td class="col-md-3">Coluna 3</td>
-                    <td class="col-md-4">Coluna 4</td>
-                    <td class="col-md-5">Coluna 5</td>
-                    <td class="col-md-6">Coluna 6</td>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                    <td>Coluna 4</td>
+                    <td>Coluna 5</td>
+                    <td>Coluna 6</td>
                 </thead>
 
                 <tbody>
                     <tr class="linha">
-                        <td class="col-md-1">L1 - C1</td>
-                        <td class="col-md-2">L1 - C2</td>
-                        <td class="col-md-3">L1 - C3</td>
-                        <td class="col-md-4">L1 - C4</td>
-                        <td class="col-md-5">L1 - C5</td>
-                        <td class="col-md-6">L1 - C6</td>
+                        <td>L1 - C1</td>
+                        <td>L1 - C2</td>
+                        <td>L1 - C3</td>
+                        <td>L1 - C4</td>
+                        <td>L1 - C5</td>
+                        <td>L1 - C6</td>
                     </tr>
                     <tr class="linha">
-                        <td class="col-md-1">L2 - C1</td>
-                        <td class="col-md-2">L2 - C2</td>
-                        <td class="col-md-3">L2 - C3</td>
-                        <td class="col-md-4">L2 - C4</td>
-                        <td class="col-md-5">L2 - C5</td>
-                        <td class="col-md-6">L2 - C6</td>
+                        <td>L2 - C1</td>
+                        <td>L2 - C2</td>
+                        <td>L2 - C3</td>
+                        <td>L2 - C4</td>
+                        <td>L2 - C5</td>
+                        <td>L2 - C6</td>
                     </tr>
                     <tr class="linha">
-                        <td class="col-md-1">L3 - C1</td>
-                        <td class="col-md-2">L3 - C2</td>
-                        <td class="col-md-3">L3 - C3</td>
-                        <td class="col-md-4">L3 - C4</td>
-                        <td class="col-md-5">L3 - C5</td>
-                        <td class="col-md-6">L3 - C6</td>
+                        <td>L3 - C1</td>
+                        <td>L3 - C2</td>
+                        <td>L3 - C3</td>
+                        <td>L3 - C4</td>
+                        <td>L3 - C5</td>
+                        <td>L3 - C6</td>
                     </tr>
                 </tbody>
             </table>

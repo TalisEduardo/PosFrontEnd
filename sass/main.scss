@@ -101,16 +101,26 @@ a {
     background-color: transparent;
 }
 
+<<<<<<< HEAD
 .table td,
 .table th {
     padding: .75rem;
+=======
+.tabela td, .tabela th {
+>>>>>>> 7ce1361041fa0215cc303e9d90aff799a93fe678
     vertical-align: top;
     border-top: 1px solid #eceeef;
 }
 
 .linha {
+<<<<<<< HEAD
     width: 100%;
     background-color: grey;
+=======
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+>>>>>>> 7ce1361041fa0215cc303e9d90aff799a93fe678
 }
 
 .container-fluid {
