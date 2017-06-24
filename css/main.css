@@ -4,8 +4,35 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #fafafa; }
+  background: #fafafa;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.panel {
+  display: flex;
+  width: 250px;
+  height: 100vh;
+  background-color: #ffffff; }
 
 .button {
-  padding: 6px 12px;
-  border: 1px solid #000; }
+  padding: 6px 20px;
+  border: 1px solid #00ab6b;
+  background: #ffffff;
+  color: #00ab6b;
+  cursor: pointer; }
+  .button.button-primary {
+    background-color: #00ab6b;
+    color: #ffffff !important; }
+  .button.button-rounded {
+    border-radius: 30px; }
+
+.form-control {
+  width: 100%;
+  padding: 6px 20px;
+  border: 1px solid #ccc; }
+
+.container-fluid {
+  display: inline-block;
+  width: 100%; }
+
+a {
+  text-decoration: none; }

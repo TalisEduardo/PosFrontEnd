@@ -1,5 +1,4 @@
-$black: #000;
-$white: white;
+$cor-primaria: #00ab6b;
 
 body,
 html {
@@ -8,9 +7,44 @@ html {
     margin: 0;
     padding: 0;
     background: #fafafa;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.panel{
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
 }
 
 .button{
-    padding: 6px 12px;
-    border: 1px solid #000;
+    padding: 6px 20px;
+    border: 1px solid $cor-primaria;
+    background: #ffffff;
+    color: $cor-primaria; 
+    cursor: pointer;
+
+    &.button-primary{
+        background-color: $cor-primaria; 
+        color: #ffffff!important;
+    }
+
+    &.button-rounded{
+        border-radius: 30px;
+    }
+}
+
+.form-control{
+    width: 100%;
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+}
+
+.container-fluid{
+    display: inline-block;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
