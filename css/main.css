@@ -123,3 +123,20 @@ a {
 
 .col-md-12 {
   width: 10%; }
+
+select option {
+  height: 30px;
+  border: 1px solid #cbcbcb;
+  padding-left: 17px;
+  padding-top: 12px;
+  color: #00ab6b; }
+
+select {
+  width: 207px;
+  height: 34px;
+  padding-right: 16px;
+  background: url(../resources/img/arrow.png) no-repeat right 7px #f0f0f0;
+  -moz-appearance: none;
+  -ms-progress-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 3px; }
