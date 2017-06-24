@@ -20,9 +20,10 @@ html {
   width: 240px;
   height: 100%;
   max-height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  bottom: 0px;
   background: #ffffff;
   color: #424242;
   overflow: visible;
@@ -78,14 +79,14 @@ a {
   border-collapse: collapse;
   background-color: transparent; }
 
-.table td, .table th {
-  padding: .75rem;
+.tabela td, .tabela th {
   vertical-align: top;
   border-top: 1px solid #eceeef; }
 
 .linha {
-  width: 100%;
-  background-color: grey; }
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit; }
 
 .col-md-1 {
   width: 10%; }

@@ -94,15 +94,15 @@ a {
     background-color: transparent;
 }
 
-.table td, .table th {
-    padding: .75rem;
+.tabela td, .tabela th {
     vertical-align: top;
     border-top: 1px solid #eceeef;
 }
 
 .linha {
-    width:100%;
-    background-color: grey;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 
 .col-md-1 {    width: 10%;}
