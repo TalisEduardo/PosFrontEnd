@@ -70,7 +70,7 @@
                 <li>Item 3</li>
             </ul>
         </div>
-        <div id="imagem">
+        <!--<div id="imagem">
             <img src="resources/img/medium-logo.png" alt="Medium Logo">
         </div>
 
@@ -80,5 +80,5 @@
 
         <div id="youtube">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LbwmqJcQyHU" frameborder="0" allowfullscreen></iframe>
-        </div>
+        </div>-->
     </section>
