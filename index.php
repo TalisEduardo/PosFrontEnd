@@ -39,11 +39,7 @@
                     <li><a href="#select">Select->Option</a></li>
                     <li><a href="#forms">Form</a></li>
                     <li><a href="#table">Table</a></li>
-                    <li><a href="#listaOrd">Lista Ordenada</a></li>
-                    <li><a href="#listaNao">Lista Não-Ordenada</a></li>
-                    <li><a href="#imagem">Imagem</a></li>
-                    <li><a href="#link">Link</a></li>
-                    <li><a href="#youtube">Youtube</a></li>
+                    <li><a href="#mensagem">Mensagens</a></li>
                 </ul>
             </div> 
         </div>

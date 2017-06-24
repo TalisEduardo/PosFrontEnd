@@ -83,11 +83,11 @@ main {
     color: #ffffff !important; }
     .button.button-primary:hover {
       opacity: .9; }
-  .button.button-secundary {
+  .button.button-secondary {
     background-color: transparent;
     border-color: #00ab6b;
     color: #00ab6b; }
-    .button.button-secundary:hover {
+    .button.button-secondary:hover {
       background-color: #00ab6b;
       border-color: #00ab6b;
       color: #ffffff; }
@@ -121,11 +121,14 @@ a {
 
 .tabela td, .tabela th {
   vertical-align: top;
-  border-top: 1px solid #eceeef; }
+  border-top: 1px solid #eceeef;
+  padding: 12px; }
+
+.tabela th {
+  font-weight: bold; }
 
 .linha {
   width: 100%;
-  background-color: grey;
   display: table-row;
   vertical-align: inherit;
   border-color: inherit; }
@@ -180,16 +183,21 @@ div[class^="col-md"] {
   display: inline-block; }
 
 select option {
-  height: 30px;
   border: 1px solid #cbcbcb;
   padding-left: 17px;
-  padding-top: 12px;
-  color: #00ab6b; }
+  padding-top: 15px;
+  color: #00ab6b;
+  width: 227px;
+  height: 34px; }
 
 select {
-  width: 207px;
+  transform: translateY(-2em);
+  width: 227px;
   height: 34px;
   padding-right: 16px;
+  margin-top: 25px;
+  color: #00ab6b;
+  padding-left: 12px;
   background: url(../resources/img/arrow.png) no-repeat right 7px #f0f0f0;
   -moz-appearance: none;
   -ms-progress-appearance: none;
@@ -202,3 +210,24 @@ select {
 h1 {
   font-size: 30px;
   font-weight: 600; }
+
+.mensagem {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 2px; }
+
+.mensagem-sucesso {
+  color: #38d15b;
+  background-color: #fff;
+  border-color: #38d15b; }
+
+.mensagem-aviso {
+  color: #878401;
+  background-color: #fff;
+  border-color: #fffa00; }
+
+.mensagem-erro {
+  color: #ff0000;
+  background-color: #fff;
+  border-color: #ff0000; }

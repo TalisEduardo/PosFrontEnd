@@ -2,10 +2,26 @@
     <div class="container-fluid">
         <section id="button">
             <h1>Botões</h1>
-            <button type="submit" class="button button-primary button-rounded">Enviar</button>
-            <button type="button" class="button button-rounded">Alterar</button>
-            <button type="button" class="button button-rounded">Excluir</button>
-            <button type="button" class="button button-rounded">Cancelar</button>
+            <button type="submit" class="button button-primary">Primário</button>
+            <button type="button" class="button button-secondary">Secundário</button>
+            <button type="button" class="button">Outro</button>
+            </br></br>
+            <button type="submit" class="button button-primary rounded">Primário</button>
+            <button type="button" class="button button-secondary rounded">Secundário</button>
+            <button type="button" class="button rounded">Outro</button>
+            </br></br>
+            <button type="submit" class="button button-primary edit">Primário</button>
+            <button type="button" class="button button-secondary edit">Secundário</button>
+            <button type="button" class="button edit">Outro</button>
+
+            <pre>
+                <code>
+                    <button type="submit" class="button button-primary edit">Primário</button>
+                    <button type="button" class="button button-secondary edit">Secundário</button>
+                    <button type="button" class="button edit">Outro</button>
+                </code>
+            </pre>
+
         </section>
         
         <section id="inputs">
@@ -30,7 +46,7 @@
                     Col 2
                 </div>
                 <div class="col-md-3">
-                    Col 2
+                    Col 3
                 </div>
             </div>
             <div class="lin">
@@ -41,7 +57,7 @@
                     Col 2
                 </div>
                 <div class="col-md-3">
-                    Col 2
+                    Col 3
                 </div>
             </div>
         </section>
@@ -63,7 +79,7 @@
 
                 <label for="senha">Senha </label>
                 <input type="password" name="senha" class="form-control" placeholder="Digite a Senha">
-
+                </br></br>
                 <button type="submit" class="button button-primary button-rounded">Entrar</button>
             </form>
         </section>
@@ -72,12 +88,12 @@
             <h1>Tabela</h1>
             <table class="tabela">
                 <thead>
-                    <td>Coluna 1</td>
-                    <td>Coluna 2</td>
-                    <td>Coluna 3</td>
-                    <td>Coluna 4</td>
-                    <td>Coluna 5</td>
-                    <td>Coluna 6</td>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                    <th>Coluna 4</th>
+                    <th>Coluna 5</th>
+                    <th>Coluna 6</th>
                 </thead>
 
                 <tbody>
@@ -109,32 +125,19 @@
             </table>
         </section>
         
-        <section id="listaOrd">
-            <h1>Lista Ordenada</h1>
-            <ol>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ol>
+        <section id="mensagem">
+            <h1>Mensagens</h1>            
+            <div class="mensagem mensagem-sucesso">
+                <strong>Successo!</strong> Retorno do Sucesso.
+            </div>
+            <div class="mensagem mensagem-aviso">
+                <strong>Aviso!</strong> Retorno do Aviso.
+            </div>
+            <div class="mensagem mensagem-erro">
+                <strong>Erro!</strong> Retorno do Erro.
+            </div>            
+
         </section>
 
-        <section id="listaNao">
-            <h1>Lista não Ordenada</h1>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </section>
-        <!--<div id="imagem">
-            <img src="resources/img/medium-logo.png" alt="Medium Logo">
-        </div>
 
-        <div id="link">
-            <a href="http://medium.com" target="_blank">Medium Link</a>
-        </div>
-
-        <div id="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LbwmqJcQyHU" frameborder="0" allowfullscreen></iframe>
-        </div>-->
     </div>
