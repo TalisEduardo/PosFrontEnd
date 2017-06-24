@@ -1,5 +1,5 @@
 
-    <section>
+    <section class="container-fluid">
         <div id="button">
             <button type="submit" class="button button-primary button-rounded">Enviar</button>
             <button type="button" class="button button-rounded">Alterar</button>
