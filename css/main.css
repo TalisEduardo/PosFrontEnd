@@ -28,7 +28,8 @@ html {
 .form-control {
   width: 100%;
   padding: 6px 20px;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+  color: #ccc; }
 
 .container-fluid {
   display: inline-block;
