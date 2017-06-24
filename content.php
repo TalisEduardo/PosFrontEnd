@@ -20,27 +20,30 @@
             <input type="password" name="campoSenha" value="" class="form-control">
         </section>
         
-        <section id="grid">
+        <section id="grid" class="show-grid">
             <h1>Sistema de Grid</h1>
             <div class="lin">
-                <div class="col-md-1">
+                <div class="col-md-4">
                     Col 1
                 </div>
-                <div class="col-md-2">
+
+                <div class="col-md-4">
                     Col 2
                 </div>
-                <div class="col-md-3">
+                
+                <div class="col-md-4">
                     Col 2
                 </div>
             </div>
+
             <div class="lin">
-                <div class="col-md-1">
+                <div class="col-md-4">
                     Col 1
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-4">
                     Col 2
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     Col 2
                 </div>
             </div>
