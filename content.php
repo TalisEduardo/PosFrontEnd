@@ -2,26 +2,21 @@
     <div class="container-fluid">
         <section id="button">
             <h1>Botões</h1>
-            <button type="submit" class="button button-primary">Primário</button>
-            <button type="button" class="button button-secondary">Secundário</button>
-            <button type="button" class="button">Outro</button>
-            </br></br>
-            <button type="submit" class="button button-primary rounded">Primário</button>
-            <button type="button" class="button button-secondary rounded">Secundário</button>
-            <button type="button" class="button rounded">Outro</button>
-            </br></br>
-            <button type="submit" class="button button-primary edit">Primário</button>
-            <button type="button" class="button button-secondary edit">Secundário</button>
-            <button type="button" class="button edit">Outro</button>
+            <div class="lin">
+                <div class="col-md-12">
+                    <button type="submit" class="button button-primary">Primário</button>
+                    <button type="button" class="button button-secondary">Secundário</button>
+                    <button type="button" class="button">Outro</button>
+                </div>
+            </div>
 
-            <pre>
-                <code>
-                    <button type="submit" class="button button-primary edit">Primário</button>
-                    <button type="button" class="button button-secondary edit">Secundário</button>
-                    <button type="button" class="button edit">Outro</button>
-                </code>
-            </pre>
-
+            <div class="lin">
+                <div class="col-md-12">
+                    <button type="submit" class="button button-primary rounded">Primário</button>
+                    <button type="button" class="button button-secondary rounded">Secundário</button>
+                    <button type="button" class="button rounded">Outro</button>
+                </div>
+            </div>
         </section>
         
         <section id="inputs">
@@ -66,11 +61,16 @@
 
         <section id="select">
             <h1>Combo-box</h1>
-            <select>
-                <option value="opt1">Opção 1</option>
-                <option value="opt2">Opção 2</option>
-                <option value="opt3">Opção 3</option>
-            </select>
+            <div class="lin">
+                <div class="col-md-3">
+                    <select class="form-control">
+                        <option value="opt1">Opção 1</option>
+                        <option value="opt2">Opção 2</option>
+                        <option value="opt3">Opção 3</option>
+                    </select>
+                </div>
+            </div>
+           
         </section>
 
         <section id="forms">
@@ -107,6 +107,7 @@
                         <td>L1 - C5</td>
                         <td>L1 - C6</td>
                     </tr>
+
                     <tr class="linha">
                         <td>L2 - C1</td>
                         <td>L2 - C2</td>
@@ -115,6 +116,7 @@
                         <td>L2 - C5</td>
                         <td>L2 - C6</td>
                     </tr>
+
                     <tr class="linha">
                         <td>L3 - C1</td>
                         <td>L3 - C2</td>

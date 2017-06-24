@@ -11,20 +11,27 @@ html {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
 }
 
 .panel-area {
-    display: flex;
     position: fixed;
     width: 300px;
     height: 100%;
@@ -34,7 +41,7 @@ html {
     left: 0;
     bottom: 0px;
 }
- 
+
 .panel-fixed-left {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -45,28 +52,28 @@ html {
     flex-direction: column;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
     overflow: visible;
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 5;
 }
 
-ul{
+ul {
     padding: 0px;
 }
 
-.vertical-menu{
-    ul{
-        li{
+.vertical-menu {
+    ul {
+        li {
             list-style: none;
-            a{
+            a {
                 display: inline-block;
                 width: 100%;
                 padding: 10px 15px;
                 color: $cor-primaria;
 
-                &:hover{
+                &:hover {
                     background-color: $cor-primaria;
                     color: #ffffff;
                 }
@@ -75,12 +82,12 @@ ul{
     }
 }
 
-main {    
+main {
     background-color: #fafafa;
     margin: 25px 25px 25px 300px;
     min-height: 100vh;
-
-    > .container-fluid{
+    
+    >.container-fluid {
         padding: 15px;
     }
 }
@@ -92,21 +99,26 @@ main {
     color: $cor-primaria;
     cursor: pointer;
     transition: .2s;
+
     &:hover {
         background: #ccc;
         color: $cor-primaria;
     }
+
     &.button-primary {
         background-color: $cor-primaria;
         color: #ffffff!important;
+
         &:hover {
             opacity: .9;
         }
     }
+
     &.button-secondary {
         background-color: transparent;
         border-color: $cor-primaria;
         color: $cor-primaria;
+
         &:hover {
             background-color: $cor-primaria;
             border-color: $cor-primaria;
@@ -123,7 +135,9 @@ main {
     width: 100%;
     padding: 6px 12px;
     border: 1px solid #ccc;
-    color: #ccc;
+    color: #252525;
+    font-size: 13px;
+    height: 34px;
 }
 
 label {
@@ -148,7 +162,8 @@ a {
     background-color: transparent;
 }
 
-.tabela td, .tabela th {
+.tabela td,
+.tabela th {
     vertical-align: top;
     border-top: 1px solid #eceeef;
     padding: 12px;
@@ -166,7 +181,7 @@ a {
 }
 
 section {
-    display:none;
+    display: none;
 }
 
 .container-fluid {
@@ -177,64 +192,66 @@ section {
 }
 
 .lin {
-   margin: 15px 0px;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px;
 }
 
 .col-md-12 {
     width: 100%;
-  }
+}
 
-  .col-md-11 {
+.col-md-11 {
     width: 91.66666667%;
-  }
+}
 
-  .col-md-10 {
+.col-md-10 {
     width: 83.33333333%;
-  }
+}
 
-  .col-md-9 {
+.col-md-9 {
     width: 75%;
-  }
+}
 
-  .col-md-8 {
+.col-md-8 {
     width: 66.66666667%;
-  }
+}
 
-  .col-md-7 {
+.col-md-7 {
     width: 58.33333333%;
-  }
+}
 
-  .col-md-6 {
+.col-md-6 {
     width: 50%;
-  }
+}
 
-  .col-md-5 {
+.col-md-5 {
     width: 41.66666667%;
-  }
+}
 
-  .col-md-4 {
+.col-md-4 {
     width: 33.33333333%;
-  }
+}
 
-  .col-md-3 {
+.col-md-3 {
     width: 25%;
-  }
+}
 
-  .col-md-2 {
+.col-md-2 {
     width: 16.66666667%;
-  }
+}
 
-  .col-md-1 {
+.col-md-1 {
     width: 8.33333333%;
-  }
+}
 
-div[class^="col-md"]{
+div[class^="col-md"] {
     float: left;
     padding: 0 15px;
 }
 
-.show-grid{
-    div[class^="col-md"]{
+.show-grid {
+    div[class^="col-md"] {
         padding: 15px;
         border: 1px solid #ccc;
     }
@@ -249,30 +266,8 @@ select option {
     height: 34px;
 }
 
-select {
-    
-    transform: translateY(-2em);
-    width: 227px;
-    height: 34px;
-    padding-right: 16px;
-    margin-top:25px;
-    color: $cor-primaria;
-    padding-left: 12px;
-    background: url(../resources/img/arrow.png) no-repeat right 7px #f0f0f0;
-    -moz-appearance: none;
-    -ms-progress-appearance: none;
-    -webkit-appearance: none;
-    border-radius: 3px;
-}
-
-
-h1{
-    display: inline-block;
-    width: 100%;
-    font-weight: 600;
-}
-
-.mensagem {    
+// Mensagens
+.mensagem {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
@@ -296,5 +291,3 @@ h1{
     background-color: #fff;
     border-color: #ff0000;
 }
-
-

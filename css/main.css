@@ -19,8 +19,14 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+h1,
+h2,
+h3 {
+  display: inline-block;
+  width: 100%;
+  font-weight: 600; }
+
 .panel-area {
-  display: flex;
   position: fixed;
   width: 300px;
   height: 100%;
@@ -98,7 +104,9 @@ main {
   width: 100%;
   padding: 6px 12px;
   border: 1px solid #ccc;
-  color: #ccc; }
+  color: #252525;
+  font-size: 13px;
+  height: 34px; }
 
 label {
   display: block;
@@ -118,7 +126,8 @@ a {
   border-collapse: collapse;
   background-color: transparent; }
 
-.tabela td, .tabela th {
+.tabela td,
+.tabela th {
   vertical-align: top;
   border-top: 1px solid #eceeef;
   padding: 12px; }
@@ -142,6 +151,8 @@ section {
   padding-right: 15px; }
 
 .lin {
+  display: inline-block;
+  width: 100%;
   margin: 15px 0px; }
 
 .col-md-12 {
@@ -195,25 +206,6 @@ select option {
   color: #00ab6b;
   width: 227px;
   height: 34px; }
-
-select {
-  transform: translateY(-2em);
-  width: 227px;
-  height: 34px;
-  padding-right: 16px;
-  margin-top: 25px;
-  color: #00ab6b;
-  padding-left: 12px;
-  background: url(../resources/img/arrow.png) no-repeat right 7px #f0f0f0;
-  -moz-appearance: none;
-  -ms-progress-appearance: none;
-  -webkit-appearance: none;
-  border-radius: 3px; }
-
-h1 {
-  display: inline-block;
-  width: 100%;
-  font-weight: 600; }
 
 .mensagem {
   padding: 15px;
