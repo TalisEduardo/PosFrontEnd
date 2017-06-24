@@ -117,6 +117,9 @@ a {
   vertical-align: inherit;
   border-color: inherit; }
 
+section div {
+  display: none; }
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
