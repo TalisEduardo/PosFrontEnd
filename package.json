@@ -1,0 +1,19 @@
+{
+  "name": "posfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+   "build-css": "node-sass --include-path scss sass/main.scss css/main.css" 
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalisEduardo/PosFrontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TalisEduardo/PosFrontEnd/issues"
+  },
+  "homepage": "https://github.com/TalisEduardo/PosFrontEnd#readme"
+}
