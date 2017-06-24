@@ -5,35 +5,57 @@ html {
   margin: 0;
   padding: 0;
   background: #fafafa;
+  color: #7f8c8d;
   font-family: 'Source Sans Pro', sans-serif; }
 
 .panel-area {
+  display: flex;
   position: fixed;
   width: 300px;
   height: 100%;
-  max-height: 100vh; }
+  max-height: 100vh;
+  background: #fafafa;
+  top: 0;
+  left: 0;
+  bottom: 0px; }
 
 .panel-fixed-left {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  top: 0;
-  left: 0;
-  bottom: 0px;
-  background: #ffffff;
-  color: #424242;
   overflow: visible;
+  overflow-x: hidden;
   overflow-y: auto;
   z-index: 5; }
 
+ul {
+  padding: 0px; }
+
+.vertical-menu ul li {
+  list-style: none; }
+  .vertical-menu ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    color: #00ab6b; }
+    .vertical-menu ul li a:hover {
+      background-color: #00ab6b;
+      color: #ffffff; }
+
 main {
+  background-color: #FFFFFF;
+  margin: 25px 25px 25px 0px;
   padding-left: 300px; }
+  main > .container-fluid {
+    width: 85%;
+    padding: 15px; }
 
 .button {
   padding: 6px 20px;

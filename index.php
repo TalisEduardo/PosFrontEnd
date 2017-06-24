@@ -14,7 +14,7 @@
             <div class="logo">
                 <h2>FormFrameFuckingFoda</h2>
             </div>
-            <div class="side-menu">
+            <div class="vertical-menu">
                 <ul>
                     <li><a href="#button">Buttons</a></li>
                     <li><a href="#inputs">Inputs</a></li>
