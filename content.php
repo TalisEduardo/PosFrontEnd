@@ -46,14 +46,8 @@
                 <div class="col-md-4">
                     Col 2
                 </div>
-<<<<<<< HEAD
                 <div class="col-md-3">
                     Col 3
-=======
-                
-                <div class="col-md-4">
-                    Col 2
->>>>>>> 04e6c485a5edee622b6aded2d0dec8df80194d28
                 </div>
             </div>
 
@@ -64,13 +58,8 @@
                 <div class="col-md-4">
                     Col 2
                 </div>
-<<<<<<< HEAD
-                <div class="col-md-3">
-                    Col 3
-=======
                 <div class="col-md-4">
                     Col 2
->>>>>>> 04e6c485a5edee622b6aded2d0dec8df80194d28
                 </div>
             </div>
         </section>
