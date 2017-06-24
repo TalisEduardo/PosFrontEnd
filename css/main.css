@@ -7,4 +7,5 @@ html {
   background: #fafafa; }
 
 .button {
-  padding: 6px 12px; }
+  padding: 6px 12px;
+  border: 1px solid #000; }
