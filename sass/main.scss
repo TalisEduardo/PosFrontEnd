@@ -41,6 +41,12 @@ html {
     color: #ccc;
 }
 
+label {
+    width: 100%;
+    padding: 6px 20px;
+    color: $cor-primaria;
+}
+
 .container-fluid{
     display: inline-block;
     width: 100%;
