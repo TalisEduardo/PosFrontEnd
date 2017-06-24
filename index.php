@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
     <script>
         $(document).ready(function() {
