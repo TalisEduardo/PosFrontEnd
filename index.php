@@ -14,7 +14,7 @@
 
                 var idHref = $(this).attr('href');
 
-                $('section div').css('display', 'none');
+                $('main section').css('display', 'none');
 
                 $(idHref).css('display', 'block');
 
@@ -35,6 +35,7 @@
                 <ul>
                     <li><a href="#button">Buttons</a></li>
                     <li><a href="#inputs">Inputs</a></li>
+                    <li><a href="#grid">Grid</a></li>
                     <li><a href="#select">Select->Option</a></li>
                     <li><a href="#forms">Form</a></li>
                     <li><a href="#table">Table</a></li>

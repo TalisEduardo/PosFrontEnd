@@ -1,13 +1,13 @@
 
-    <section class="container-fluid">
-        <div id="button">
+    <div class="container-fluid">
+        <section id="button">
             <button type="submit" class="button button-primary button-rounded">Enviar</button>
             <button type="button" class="button button-rounded">Alterar</button>
             <button type="button" class="button button-rounded">Excluir</button>
             <button type="button" class="button button-rounded">Cancelar</button>
-        </div>
+        </section>
         
-        <div id="inputs">
+        <section id="inputs">
             <label for="campoTexto">Input Tipo Texto </label>
             <input type="text" name="campoTexto" class="form-control" value="">
 
@@ -16,17 +16,42 @@
 
             <label for="campoSenha">Input Tipo Password </label>
             <input type="password" name="campoSenha" value="" class="form-control">
-        </div>
+        </section>
+        
+        <section id="grid">
+            <div class="lin">
+                <div class="col-md-1">
+                    Col 1
+                </div>
+                <div class="col-md-2">
+                    Col 2
+                </div>
+                <div class="col-md-3">
+                    Col 2
+                </div>
+            </div>
+            <div class="lin">
+                <div class="col-md-1">
+                    Col 1
+                </div>
+                <div class="col-md-2">
+                    Col 2
+                </div>
+                <div class="col-md-3">
+                    Col 2
+                </div>
+            </div>
+        </section>
 
-        <div id="select">
+        <section id="select">
             <select>
                 <option value="opt1">Opção 1</option>
                 <option value="opt2">Opção 2</option>
                 <option value="opt3">Opção 3</option>
             </select>
-        </div>
+        </section>
 
-        <div id="forms">
+        <section id="forms">
             <form action="submit" method="post">
                 <label for="login">Login </label>
                 <input type="text" name="login" class="form-control" placeholder="Digite o Email">
@@ -36,9 +61,9 @@
 
                 <button type="submit" class="button button-primary button-rounded">Entrar</button>
             </form>
-        </div>
+        </section>
 
-        <div id="table">
+        <section id="table">
             <table class="tabela">
                 <thead>
                     <td>Coluna 1</td>
@@ -76,23 +101,23 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </section>
         
-        <div id="listaOrd">
+        <section id="listaOrd">
             <ol>
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ol>
-        </div>
+        </section>
 
-        <div id="listaNao">
+        <section id="listaNao">
             <ul>
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
             </ul>
-        </div>
+        </section>
         <!--<div id="imagem">
             <img src="resources/img/medium-logo.png" alt="Medium Logo">
         </div>
@@ -104,4 +129,4 @@
         <div id="youtube">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/LbwmqJcQyHU" frameborder="0" allowfullscreen></iframe>
         </div>-->
-    </section>
+    </div>
