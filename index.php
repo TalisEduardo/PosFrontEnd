@@ -6,6 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('a').on('click', function() { 
+
+                var idHref = $(this).attr('href');
+
+                $('section div').css('display', 'none');
+
+                $(idHref).css('display', 'block');
+
+            });
+
+        });
+    
+    </script>
 </head>
 
 <body>
