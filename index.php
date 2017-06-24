@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>FormFrameFuckingFoda</title>
+    <title>FormFrame</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <nav class="panel-area">
         <div class="panel-fixed-left">
             <div class="logo">
-                <h2>FormFrameFuckingFoda</h2>
+                <h2>FormFrame</h2>
             </div>
             <div class="vertical-menu">
                 <ul>
