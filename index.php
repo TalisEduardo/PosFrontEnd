@@ -9,30 +9,32 @@
 </head>
 
 <body>
-    <nav class="panel fixed-left">
-        <div class="logo">
-            <h2>FormFrameFuckingFoda</h2>
-        </div>
-        <div class="side-menu">
-            <ul>
-                <li><a href="#button">Buttons</a></li>
-                <li><a href="#inputs">Inputs</a></li>
-                <li><a href="#select">Select->Option</a></li>
-                <li><a href="#forms">Form</a></li>
-                <li><a href="#table">Table</a></li>
-                <li><a href="#listaOrd">Lista Ordenada</a></li>
-                <li><a href="#listaNao">Lista Não-Ordenada</a></li>
-                <li><a href="#imagem">Imagem</a></li>
-                <li><a href="#link">Link</a></li>
-                <li><a href="#youtube">Youtube</a></li>
-            </ul>
+    <nav class="panel-area">
+        <div class="panel-fixed-left">
+            <div class="logo">
+                <h2>FormFrameFuckingFoda</h2>
+            </div>
+            <div class="side-menu">
+                <ul>
+                    <li><a href="#button">Buttons</a></li>
+                    <li><a href="#inputs">Inputs</a></li>
+                    <li><a href="#select">Select->Option</a></li>
+                    <li><a href="#forms">Form</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#listaOrd">Lista Ordenada</a></li>
+                    <li><a href="#listaNao">Lista Não-Ordenada</a></li>
+                    <li><a href="#imagem">Imagem</a></li>
+                    <li><a href="#link">Link</a></li>
+                    <li><a href="#youtube">Youtube</a></li>
+                </ul>
+            </div> 
         </div>
     </nav>
-
-    <?php 
-        include("content.php");
-    ?>
-
+    <main>
+        <?php 
+            include("content.php");
+        ?>    
+    </main>
     </body>
 
 </html>
